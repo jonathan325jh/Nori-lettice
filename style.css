@@ -1,19 +1,37 @@
-header{
-    background-color: #000000;
+body {
+    margin: 0; 
+    font-family: Arial, sans-serif; 
 }
 
-#logo{
-    width: 10%;
+header {
+    background-color: black;
+    padding: 15px 30px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
 }
 
-#informacao{
-    width: 5%;
+.cabecalho {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    margin-bottom: 20px;
 }
 
-#carrinho{
-    width: 5%;
+
+#logo {
+    width: 150px; 
+    height: auto;
 }
 
-#login{
-    width: 5%;
+
+.itens-cabeca img {
+    width: 40px; 
+    height: auto;
+    margin-left: 20px;
+    float: right;
+    margin-left: 10px; 
+    
 }
+

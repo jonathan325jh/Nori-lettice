@@ -4,27 +4,28 @@ body {
 }
 
 header {
-    background-color: black;
-    padding: 15px 30px; 
+    background: black;
+    padding: 15px 750px 60px; 
     display: flex;
     flex-direction: column; 
     align-items: center;
 }
-
-.cabecalho {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    width: 100%; 
-    margin-bottom: 20px;
+.pp{
+   
 }
 
 
 #logo {
-    width: 150px; 
+    width: 160px; 
     height: auto;
+    
 }
 
+.itens-cabeca{
+    padding-left: 1400px;
+    margin-top: -170px;
+    display: inline-flex;
+}
 
 .itens-cabeca img {
     width: 40px; 
@@ -32,6 +33,7 @@ header {
     margin-left: 20px;
     float: right;
     margin-left: 10px; 
-    
 }
+
+
 

@@ -61,6 +61,16 @@ a{
 }
 
 .container{
+
+    width: 90%;
+    padding-right: -150px;
+    margin-left: 90px;
     background: black;
-    margin-bottom: 90px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    
+}
+
+.container img{
+    width: 20%;
 }

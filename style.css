@@ -5,15 +5,11 @@ body {
 
 header {
     background: black;
-    padding: 15px 750px 60px; 
+    padding: 15px 750px 150px; 
     display: flex;
     flex-direction: column; 
     align-items: center;
 }
-.pp{
-   
-}
-
 
 #logo {
     width: 160px; 
@@ -36,4 +32,35 @@ header {
 }
 
 
+.links{
+    text-align: left;
+    display: flex;
+    background: #545454;
+    
+    
+}
 
+h1{
+    background: #545454;
+    text-align: left;
+    margin-bottom: 30px;
+    
+    
+    
+}
+
+a{
+    color: aliceblue;
+    font-family: "Sansation", sans-serif;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.container{
+    background: black;
+    margin-bottom: 90px;
+}

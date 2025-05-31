@@ -79,3 +79,21 @@ a{
     width: 90%;;
 
 }
+
+.promocao-do-dia{
+      padding-left: 150px;
+     
+}
+
+.promocao-do-dia li {
+   
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 100px 0px 50px;
+    margin-bottom: 550px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+}

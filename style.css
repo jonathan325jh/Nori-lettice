@@ -43,7 +43,7 @@ header {
 h1{
     background: #545454;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     
     
     
@@ -61,16 +61,21 @@ a{
 }
 
 .container{
-
-    width: 90%;
-    padding-right: -150px;
-    margin-left: 90px;
-    background: black;
-    padding-bottom: 10px;
-    border-radius: 20px;
-    
+  width: 95%;
+  display: flex;
+  margin: 0 0 900px 40px;
+  border: 10px solid black;
+  margin-bottom: 700px;
+  background-color: black;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  height: 550px; 
+  border-radius: 10px;
 }
 
-.container img{
-    width: 20%;
+
+#promo-foto{
+    width: 90%;;
+
 }

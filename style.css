@@ -87,14 +87,25 @@ a{
     color: black;
 }
 
-nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
+
+.bordas{
+    pointer-events: none;
+    margin: 20px;
+    background-color: white; 
+    padding: 20px;
+    border: 3px solid rgba(black);
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-spacing: 30px;
 }
 
-
-nav a:hover {
-	color: #684705;
-	text-decoration: underline;
+.bordas td{
+    width: 100px;
+    height: 150px;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 2px solid rgba(black);
+    
 }

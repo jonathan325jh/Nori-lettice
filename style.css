@@ -88,24 +88,20 @@ a{
 }
 
 
-.bordas{
-    pointer-events: none;
-    margin: 20px;
-    background-color: white; 
-    padding: 20px;
-    border: 3px solid rgba(black);
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    border-spacing: 30px;
-}
+.bordas {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    justify-content: center;
 
-.bordas td{
-    width: 100px;
-    height: 150px;
-    cursor: pointer;
-    color: black;
-    border-radius: 10px;
-    background-color: #ffffff;
-    border: 2px solid rgba(black);
-    
 }
+.retangulo {
+    border-radius: 20px;
+    width: 170px;
+    height: 260px;
+    border: 1px solid black;
+  
+}
+    
+
